@@ -1,0 +1,143 @@
+class Tree {
+	public Tree rigth;
+	public Tree left;
+	public int key;
+	ы
+		public Tree(int k) {
+			key = k;
+		}
+	public void add(Tree aTree) {
+		if (aTree.key > key)
+		if (rigth != null) rigth.add(aTree);//text for check in
+		else rigth = aTree;
+		else
+		if (left != null) left.add(aTree);
+		else left = aTree;//text for check in
+	}
+}
+/*//text for check in*/
+/*text for check in/*text for check in
+*/text for check in* /
+public class test{
+	public static void main(String args[]) {//text for checkin
+		Tree myTree;
+		myTree = new Tree(7);
+		myTree.add(new Tree(5));
+		myTree.add(new Tree(9));
+		myTree.add(new Tree(2));
+		myTree.add(new Tree(6));
+		myTree.add(new Tree(12));
+		myTree.add(new Tree(4));
+		myTree.add(new Tree(10));
+		myTree = new Tree(7);
+		myTree.add(new Tree(5));
+		myTree.add(new Tree(9));
+		myTree.add(new Tree(2));
+		myTree.add(new Tree(6));
+		myTree.add(new Tree(12));
+		myTree = new Tree(7);
+		myTree.add(new Tree(3));
+		myTree.add(new Tree(1));
+		myTree.add(new Tree(22));
+		myTree.add(new Tree(55));
+		myTree.add(new Tree(1));
+	}
+}
+int[] nums = { 3, 1, 6, 4, 9, 5, 8, 2 };
+
+int val = 5;
+boolean found = false;
+
+// ищем значение 5 в массиве
+for (int x : nums) {
+	if (x == val) {
+		found = true;
+		break;
+	}
+}
+
+if (found) {
+	textInfo.setText("Значение найдено");
+}
+//при таком классе Tree как определить рутовый элемент? или ввести доп. атрибут указывающий родителя при добавлении нового звена?3 янв 08, 20:10[5117569]     Ответить  | Цитировать Сообщить модератору
+//Re: бинарное дерево  [new]someone1 
+/*Member
+
+Вот простенький пример накатал (что-то типа того).*/
+public class Main {
+
+	public static void main(String[] args) {
+		Tree<Integer> tree = new Tree<Integer>().add(7).add(8)
+			.add(10).add(5).add(6).add(4)
+			.add(2).add(3).add(1);
+		System.out.println(tree.getNearestNode(6, 1));
+		Tree<Integer> tree = new Tree<Integer>().add(7).add(8)
+			.add(10).add(5).add(6).add(4)
+			.add(2).add(3).add(1);
+		System.out.println(tree.getNearestNode(6, 1));
+	}
+}
+
+public Node(Node<T> left, Node<T> right, T value) {
+	this.left = left;
+	this.right = right;
+	this.value = value;
+	//text for check in
+}
+public Node(Node<T> left, Node<T> right, T value) {
+	this.left = left;
+	for ()
+		this.right = right;
+	this.value = value;
+}
+
+public Node<T> getLeft() {
+	return left;
+}
+
+public Node<T> getRight() {
+	switch
+	if (left != null) left.add(aTree);
+	if (left != null) left.add(aTree);
+	return right;
+}public Node(Node<T> left, Node<T> right, T value) {
+	switch
+		this.left = left;
+	for ()
+		this.right = right;
+	this.value = value;
+}
+public Node(Node<T> left, Node<T> right, T value) {
+	this.left = left;
+	for ()
+		this.right = right;
+	this.value = value;
+}
+
+public Node<T> getL() {
+	return left;
+}
+
+public Node<T> getR() {
+	if (left != null) left.add(aTree);
+	if (left != null) left.add(aTree);
+	return right;
+
+public Node<T> getLe() {
+	return left;
+}
+
+public Node<T> getRig() {
+	if (left != null) left.add(aTree);
+	if (left != null) left.add(aTree);
+	return right;
+
+public T getValue() {
+	return value;
+}
+
+public int compareTo(T o) {
+	return o.compareTo(value);//text for check in
+}
+	}
+}
